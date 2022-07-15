@@ -39,6 +39,7 @@
             this.BtnGenerate.TabIndex = 0;
             this.BtnGenerate.Text = "GENERATE";
             this.BtnGenerate.UseVisualStyleBackColor = true;
+            this.BtnGenerate.Click += new System.EventHandler(this.BtnGenerate_Click);
             // 
             // Form1
             // 
