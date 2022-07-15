@@ -47,6 +47,7 @@ namespace PDF_RESUME_CREATOR_FINAL
             public string College { get; set; }
             public string SeniorHighSchool { get; set; }
             public string JuniorHighSchool { get; set; }
+            public string Elementary{ get; set; }
             public string AAchievement{ get; set; }
             public string BAchievement { get; set; }
         }
@@ -79,6 +80,7 @@ namespace PDF_RESUME_CREATOR_FINAL
             string College = resumeFromJson.College;
             string SeniorHighSchool = resumeFromJson.SeniorHighSchool;
             string JuniorHighSchool = resumeFromJson.JuniorHighSchool;
+            string Elementary = resumeFromJson.Elementary;
             string AAchievement = resumeFromJson.AAchievement;
             string BAchievement = resumeFromJson.BAchievement;
 
@@ -116,13 +118,13 @@ namespace PDF_RESUME_CREATOR_FINAL
                     XImage image = XImage.FromFile(jpg);
                     graph.DrawImage(image, marginleft, 50, 150, 150);
 
-                    graph.DrawString("PERSONAL INFO:", bigfont, XBrushes.LightBlue, new XRect(marginleft, initialleft + 20, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(Email, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 50, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(ContactNumber, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 80, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(AAddress, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 110, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(BAddress, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 140, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString("PERSONAL INFO:", bigfont, XBrushes.LightBlue, new XRect(marginleft, initialleft + 10, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(Email, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 40, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(ContactNumber, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 60, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(AAddress, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 80, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(BAddress, smallfont, XBrushes.White, new XRect(marginleft, initialleft + 100, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
 
-                    graph.DrawRectangle(linerleft, marginleft, initialleft + 40, 150, 1);
+                    graph.DrawRectangle(linerleft, marginleft, initialleft + 30, 150, 1);
 
                     int marginmiddle = 220;
                     int initialmiddle = 180;
@@ -132,11 +134,12 @@ namespace PDF_RESUME_CREATOR_FINAL
 
                     graph.DrawRectangle(linerright, marginmiddle, initialmiddle - 10, 350, 1);
 
-                    graph.DrawString("EDUCATION:", bigfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(College, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 30, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(SeniorHighSchool, smallfont, XBrushes.Black, new XRect(marginmiddle + 25, initialmiddle + 50, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(JuniorHighSchool, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 70, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-
+                    graph.DrawString("SOFT AND HARD SKILLS:", bigfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(Askill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 30, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(Bskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 50, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(Cskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 70, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(Eskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 90, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                  
                     initialmiddle = initialmiddle + 130;
                     graph.DrawRectangle(linerright, marginmiddle, initialmiddle - 5, 350, 1);
 
@@ -144,19 +147,17 @@ namespace PDF_RESUME_CREATOR_FINAL
                     graph.DrawString(AAchievement, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 30, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
                     graph.DrawString(BAchievement, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 50, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
 
-                    initialmiddle = initialmiddle + 180;
+                    initialmiddle = initialmiddle + 100;
 
                     graph.DrawRectangle(linerright, marginmiddle, initialmiddle - 5, 350, 1);
 
 
-                    graph.DrawString("SOFT AND HARD SKILLS", bigfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString("EDUCATION", bigfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
 
-                    graph.DrawString(Askill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 30, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(Bskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 50, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(Cskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 70, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(Eskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 110, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(Fskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 130, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
-                    graph.DrawString(Gskill, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 150, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(College, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 30, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(SeniorHighSchool, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 50, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(JuniorHighSchool, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 70, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
+                    graph.DrawString(Elementary, smallfont, XBrushes.Black, new XRect(marginmiddle, initialmiddle + 90, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
 
                     pdf.Save(saveFileDialog.FileName);
                 }
