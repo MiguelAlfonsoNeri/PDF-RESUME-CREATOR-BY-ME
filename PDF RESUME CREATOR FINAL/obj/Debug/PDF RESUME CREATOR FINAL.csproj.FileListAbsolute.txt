@@ -1,0 +1,20 @@
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PDF RESUME CREATOR FINAL.exe.config
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PDF RESUME CREATOR FINAL.exe
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PDF RESUME CREATOR FINAL.pdb
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PdfSharp.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PdfSharp.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.csproj.AssemblyReference.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.csproj.SuggestedBindingRedirects.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF_RESUME_CREATOR_FINAL.Form1.resources
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF_RESUME_CREATOR_FINAL.Properties.Resources.resources
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.csproj.GenerateResource.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.csproj.CoreCompileInputs.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.csproj.CopyComplete
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.exe
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\RESUME PDF CREATOR FINAL\PDF RESUME CREATOR FINAL\PDF RESUME CREATOR FINAL\obj\Debug\PDF RESUME CREATOR FINAL.pdb
